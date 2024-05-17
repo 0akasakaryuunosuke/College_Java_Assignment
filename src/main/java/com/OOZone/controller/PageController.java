@@ -22,6 +22,12 @@ public class PageController {
         return "addArticle";
     }
 
+    @RequestMapping(value="/chat")
+    public String toChat(){
+       return "chat";
+    }
+
+
     @RequestMapping("/404")
     public String NotFound(@RequestParam(required = false) String message, Model model) {
         model.addAttribute("message", message);

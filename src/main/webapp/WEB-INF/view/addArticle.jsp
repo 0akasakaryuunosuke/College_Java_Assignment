@@ -68,6 +68,7 @@
                 <li class="active"><a href="#">我要发帖</a></li>
                 <li><a href="<%=Path%>/myArticle/${USER_SESSION.userId}">我发布的</a></li>
                 <li><a href="${pageContext.request.contextPath}/userCenter" id="userSpace">用户中心</a></li>
+                <li><a href="<%=Path%>/chat" id="chat" onclick="check()">我的小组</a></li>
             </ul>
         </div>
     </div>

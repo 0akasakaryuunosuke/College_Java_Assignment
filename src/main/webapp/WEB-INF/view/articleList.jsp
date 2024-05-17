@@ -106,6 +106,7 @@
                 <li><a href="<%=Path%>/addArticle" id="addArticle" onclick="check()">发布文章</a></li>
                 <li><a href="<%=Path%>/myArticle/${USER_SESSION.userId}" id="myArticle" onclick="check()">我发布的</a></li>
                 <li><a href="${pageContext.request.contextPath}/userCenter" id="userSpace" onclick="check()">用户中心</a></li>
+                <li><a href="<%=Path%>/chat" id="chat" onclick="check()">我的小组</a></li>
             </ul>
         </div>
     </div>
